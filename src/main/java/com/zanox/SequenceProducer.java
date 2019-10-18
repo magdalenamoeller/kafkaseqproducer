@@ -15,6 +15,7 @@ public class SequenceProducer {
         //System.out.println(Math.abs("polygenelubricants".hashCode()) < 0);
 
         //commit 1
+        //commit 2
 
         String topic = "test"; //"args[0];
         String broker = "172.17.0.1:9092"; //"172.25.156.107:9092"; //"172.17.0.1:9092";//"localhost:9092";//"172.19.0.1:9092"; //args[1];

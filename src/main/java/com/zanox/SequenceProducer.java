@@ -15,6 +15,8 @@ public class SequenceProducer {
         String broker = args[1];
 
         new SequenceProducer(topic, broker);
+
+        //commit 3 master
     }
 
     private SequenceProducer(String topic, String broker) {

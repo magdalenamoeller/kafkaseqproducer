@@ -11,8 +11,13 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class SequenceProducer {
     public static void main(String args[]) {
-        String topic = args[0];
-        String broker = args[1];
+        //System.out.println("polygenelubricants".hashCode());
+        //System.out.println(Math.abs("polygenelubricants".hashCode()) < 0);
+
+        //commit 1
+
+        String topic = "test"; //"args[0];
+        String broker = "172.17.0.1:9092"; //"172.25.156.107:9092"; //"172.17.0.1:9092";//"localhost:9092";//"172.19.0.1:9092"; //args[1];
 
         new SequenceProducer(topic, broker);
 
